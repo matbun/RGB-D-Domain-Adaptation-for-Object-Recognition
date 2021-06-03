@@ -4,6 +4,10 @@ A partial solution is generating synthetic examples that does not require a cost
 However, this comes at a cost: *real images* belong to a slightly different domain with respect to *generated images*. 
 This **domain shift** can be reduced with different techniques of *domain adaptation*.   
 
+In this work we propose an improvement to the previous work of Robbiano et al. 
+"Unsupervised domain adaptation through inter-modal rotation for rgb-d object recognition".
+
+
 ## Domain adaptation
 Really popular in self driving cars, domain adaptation techniques allow to learn robust domain invariant features (real vs. fake, day vs. night).
 Domain adaptation can be achieved roughtly in three ways:
@@ -14,6 +18,3 @@ Domain adaptation can be achieved roughtly in three ways:
 ## RGB-D images
 This solution can be as well applied to the robotic vision field in which images come in both RGB and depth modalities, 
 requiring the design of ad-hoc inter-modal self supervised tasks.
-
-In this work we propose an improvement to the previous work of Robbiano et al. 
-"Unsupervised domain adaptation through inter-modal rotation for rgb-d object recognition".
