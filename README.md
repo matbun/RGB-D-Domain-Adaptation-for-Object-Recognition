@@ -5,7 +5,8 @@ However, this comes at a cost: *real images* belong to a slightly different doma
 This **domain shift** can be reduced with different techniques of *domain adaptation*.   
 
 In this work we propose an improvement to the previous work of Robbiano et al. 
-"Unsupervised domain adaptation through inter-modal rotation for rgb-d object recognition".
+"Unsupervised domain adaptation through inter-modal rotation for rgb-d object recognition".  
+The final project report can be found in this repo as well.
 
 
 ## Domain adaptation
